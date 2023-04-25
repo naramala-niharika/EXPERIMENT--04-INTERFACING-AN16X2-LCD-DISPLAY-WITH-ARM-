@@ -173,13 +173,41 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
+### Devoloped By:N.Niharika
+### Reg.No.:212221240031
+```
+#include "main.h"
+#include "lcd.h"
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  	  Lcd_PortType ports[]={GPIOA,GPIOA,GPIOA,GPIOA};
+  	  Lcd_PinType pins[]={GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
+  	  Lcd_HandleTypeDef lcd;
+  	  lcd=Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
+  	  Lcd_cursor(&lcd,0,1);
+  	  Lcd_string(&lcd,"DEPT - AIDS");
+  while (1)
+  {
+    	Lcd_cursor(&lcd,1,1);
+    	  	  Lcd_string(&lcd,"JITHENDRA");
+  }
+}
 
+```
 
 
 
 ## Output screen shots of proteus  :
- 
- 
+<img width="602" alt="e4" src="https://user-images.githubusercontent.com/94165377/234255709-104c1023-25ee-4c12-b463-8257ded9023b.png">
+
+ <img width="493" alt="exp4-1" src="https://user-images.githubusercontent.com/94165377/234254914-e3666102-0fc4-47b3-a4c1-5b1e50c05faa.png">
+<img width="553" alt="exp-4-3" src="https://user-images.githubusercontent.com/94165377/234255622-7b787cef-a1fa-4621-9b3e-3c818e3c5163.png">
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
  
