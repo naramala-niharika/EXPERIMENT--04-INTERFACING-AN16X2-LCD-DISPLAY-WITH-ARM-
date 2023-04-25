@@ -208,7 +208,7 @@ int main(void)
  <img width="493" alt="exp4-1" src="https://user-images.githubusercontent.com/94165377/234254914-e3666102-0fc4-47b3-a4c1-5b1e50c05faa.png">
 <img width="553" alt="exp-4-3" src="https://user-images.githubusercontent.com/94165377/234255622-7b787cef-a1fa-4621-9b3e-3c818e3c5163.png">
 
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+ 
  
  
 ## Result :
